@@ -7,12 +7,12 @@ pipeline {
     // booleanParam(name: 'exectutiontest', defaultValue: true, description: '')
   }*/
   stages {
-    stage('Initialize ') {
+    stage('Contruir ') {
       steps {
         echo 'hola mundo '
       }
     }
-     stage('Test ') {
+     stage('prueba ') {
      /*  when {
           expression{
               param.exectutiontest
@@ -22,7 +22,7 @@ pipeline {
         echo 'Aqui iria el codigo de la prueba el cual podria ser en groovy, selenio, or junit, etc  '
       }
     }
- stage('Deploy ') {
+ stage('ejecutar ') {
       steps {
         echo 'hola Ismelka'
        // echo "Select the version ${VERSION}"
